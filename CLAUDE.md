@@ -8,15 +8,17 @@ This is a knowledge base repository for curated AI articles and references. It c
 
 ## Repository Structure
 
-Flat structure with filename prefixes indicating source/category:
+Flat structure with filename prefixes indicating author/source:
 
 ```
-anthropic-*    # Anthropic articles (Claude, research, etc.)
-aws-*          # AWS articles (Bedrock, SageMaker, etc.)
-general-*      # General AI articles and tools
+anthropic-*     # Anthropic articles (Claude, research, etc.)
+aws-*           # AWS articles (Bedrock, SageMaker, etc.)
+addyosmani-*    # Addy Osmani articles
+martinfowler-*  # Martin Fowler's blog articles
+github-*        # GitHub repos/docs
 ```
 
-Example: `anthropic-claude-code-best-practices.md`
+Example: `addyosmani-writing-specs-for-agents.md`
 
 ## Article Format
 

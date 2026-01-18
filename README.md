@@ -4,17 +4,23 @@ Curated AI articles and references.
 
 ## Naming Convention
 
-Files use prefix to indicate source:
+Files use prefix to indicate author/source:
 - `anthropic-*` — Anthropic (Claude, research)
 - `aws-*` — AWS (Bedrock, SageMaker)
-- `general-*` — General AI articles and tools
+- `addyosmani-*` — Addy Osmani
+- `martinfowler-*` — Martin Fowler's blog
+- `github-*` — GitHub
 
 ## Articles
 
 ### Anthropic
 - [anthropic-claude-code-best-practices.md](anthropic-claude-code-best-practices.md) — Claude Code best practices
 
-### General
-- [general-spec-kit.md](general-spec-kit.md) — GitHub's spec-driven development toolkit
-- [general-spec-driven-development-tools.md](general-spec-driven-development-tools.md) — Analysis of SDD tools
-- [general-writing-specs-for-agents.md](general-writing-specs-for-agents.md) — How to write specs for AI agents
+### Addy Osmani
+- [addyosmani-writing-specs-for-agents.md](addyosmani-writing-specs-for-agents.md) — How to write specs for AI agents
+
+### Martin Fowler
+- [martinfowler-spec-driven-development-tools.md](martinfowler-spec-driven-development-tools.md) — Analysis of SDD tools
+
+### GitHub
+- [github-spec-kit.md](github-spec-kit.md) — Spec-driven development toolkit
