@@ -8,19 +8,15 @@ This is a knowledge base repository for curated AI articles and references. It c
 
 ## Repository Structure
 
+Flat structure with filename prefixes indicating source/category:
+
 ```
-/anthropic/
-  /claude-code/      # Claude Code tooling and workflows
-  /prompting/        # Prompt engineering for Claude
-  /research/         # Anthropic research papers and findings
-/aws/
-  /bedrock/          # Amazon Bedrock articles
-  /sagemaker/        # SageMaker ML articles
-/general/
-  /ai-development/   # General AI development practices
-  /prompt-engineering/   # Cross-platform prompting techniques
-  /tools-and-frameworks/ # AI tools, libraries, frameworks
+anthropic-*    # Anthropic articles (Claude, research, etc.)
+aws-*          # AWS articles (Bedrock, SageMaker, etc.)
+general-*      # General AI articles and tools
 ```
+
+Example: `anthropic-claude-code-best-practices.md`
 
 ## Article Format
 

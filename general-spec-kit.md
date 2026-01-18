@@ -80,4 +80,4 @@ Works with 15+ AI coding agents including Claude, Gemini, Copilot, Cursor, and Q
 
 ## Related
 
-- [Spec-Driven Development Tools](../ai-development/spec-driven-development-tools.md) - Analysis of SDD tools including spec-kit
+- [Spec-Driven Development Tools](general-spec-driven-development-tools.md) - Analysis of SDD tools including spec-kit
