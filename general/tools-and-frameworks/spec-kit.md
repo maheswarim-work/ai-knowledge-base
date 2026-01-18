@@ -11,6 +11,14 @@ Open-source toolkit for Spec-Driven Development (SDD). Treats specifications as 
 
 Inverts traditional development: AI coding agents generate implementations directly from comprehensive specifications instead of casual prompts.
 
+## Quick Start
+
+```bash
+uvx --from git+https://github.com/github/spec-kit.git specify init --here
+```
+
+**Security Note:** Some agents may store credentials, auth tokens, or other private artifacts in the agent folder. Consider adding `.claude/` (or parts of it) to `.gitignore` to prevent accidental credential leakage.
+
 ## CLI Commands
 
 ### Core Workflow
@@ -23,11 +31,11 @@ Inverts traditional development: AI coding agents generate implementations direc
 | `/speckit.implement` | Execute all tasks systematically |
 
 ### Optional Enhancement
-| Command | Purpose |
-|---------|---------|
-| `/speckit.clarify` | Resolve underspecified requirements |
-| `/speckit.analyze` | Verify artifact consistency |
-| `/speckit.checklist` | Create quality validation checklists |
+| Command | Purpose | When to Use |
+|---------|---------|-------------|
+| `/speckit.clarify` | Ask structured questions to de-risk ambiguous areas | Before `/speckit.plan` |
+| `/speckit.analyze` | Cross-artifact consistency & alignment report | After `/speckit.tasks`, before `/speckit.implement` |
+| `/speckit.checklist` | Validate requirements completeness, clarity, and consistency | After `/speckit.plan` |
 
 ## Supported Agents
 
