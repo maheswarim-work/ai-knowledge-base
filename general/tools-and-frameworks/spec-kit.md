@@ -19,6 +19,37 @@ uvx --from git+https://github.com/github/spec-kit.git specify init --here
 
 **Security Note:** Some agents may store credentials, auth tokens, or other private artifacts in the agent folder. Consider adding `.claude/` (or parts of it) to `.gitignore` to prevent accidental credential leakage.
 
+## Generated Folder Structure
+
+```
+.claude/commands/
+  speckit.analyze.md
+  speckit.checklist.md
+  speckit.clarify.md
+  speckit.constitution.md
+  speckit.implement.md
+  speckit.plan.md
+  speckit.specify.md
+  speckit.tasks.md
+  speckit.taskstoissues.md
+
+.specify/
+  memory/
+    constitution.md
+  scripts/bash/
+    check-prerequisites.sh
+    common.sh
+    create-new-feature.sh
+    setup-plan.sh
+    update-agent-context.sh
+  templates/
+    agent-file-template.md
+    checklist-template.md
+    plan-template.md
+    spec-template.md
+    tasks-template.md
+```
+
 ## CLI Commands
 
 ### Core Workflow
