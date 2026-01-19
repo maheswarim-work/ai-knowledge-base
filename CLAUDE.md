@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a knowledge base repository for curated AI articles and references. It contains documentation and reference materials rather than application code.
 
+**Content policy:** Only external author articles and official documentation. No personal notes or sandbox projects.
+
 ## Repository Structure
 
 Flat structure with filename prefixes indicating author/source:
