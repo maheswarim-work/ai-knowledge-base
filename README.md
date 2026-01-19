@@ -27,3 +27,4 @@ Files use prefix to indicate author/source:
 
 ### GitHub
 - [github-spec-kit.md](github-spec-kit.md) — Spec-driven development toolkit
+- [github-mcp-server.md](github-mcp-server.md) — GitHub MCP server for Claude
