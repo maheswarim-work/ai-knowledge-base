@@ -16,6 +16,7 @@ Files use prefix to indicate author/source:
 ### Anthropic
 - [anthropic-claude-code-best-practices.md](anthropic-claude-code-best-practices.md) — Claude Code best practices
 - [anthropic-claude-code-extensibility.md](anthropic-claude-code-extensibility.md) — Skills, commands, agents, MCP
+- [anthropic-claude-code-sandbox-api-doc-generator.md](anthropic-claude-code-sandbox-api-doc-generator.md) — Sandbox project to learn extensibility
 
 ### Addy Osmani
 - [addyosmani-writing-specs-for-agents.md](addyosmani-writing-specs-for-agents.md) — How to write specs for AI agents
